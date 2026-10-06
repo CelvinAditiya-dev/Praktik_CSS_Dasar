@@ -1,0 +1,363 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222222;
+    margin: 20px;
+}
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: #1769aa;
+}
+
+h3 {
+    color: #333333;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+li {
+    color: #666666;
+    font-size: 17px;
+}
+
+/* PRAKTIK 3: Class Selector */
+.judul-utama,
+.judul-warna,
+.judul-font {
+    color: #1f4e79;
+}
+
+.informasi {
+    color: #444444;
+    background-color: #e8f1f8;
+    padding: 8px;
+}
+
+.penting {
+    color: #b00020;
+    font-weight: bold;
+}
+
+/* PRAKTIK 4: ID Selector */
+#judul-utama {
+    color: darkblue;
+    font-size: 32px;
+}
+
+/* PRAKTIK 5: Grouping Selector */
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+.group-text,
+li {
+    color: #555555;
+}
+
+/* PRAKTIK 6: Property dan Value */
+.judul-font {
+    font-size: 30px;
+}
+
+.teks {
+    color: gray;
+    font-size: 18px;
+}
+
+/* PRAKTIK 7-8: Warna */
+.judul-warna {
+    color: darkblue;
+}
+
+.warna-satu {
+    color: rgb(40, 40, 40);
+    background-color: #eeeeee;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.warna-dua {
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 90, 160);
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.warna-tiga {
+    color: #ffffff;
+    background-color: #7b3f98;
+    padding: 20px;
+    margin: 15px 0;
+}
+
+.palet-warna p {
+    display: inline-block;
+    width: 100px;
+    padding: 12px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+}
+
+.merah { background-color: red; }
+.hijau { background-color: #2e8b57; }
+.biru { background-color: #246bce; }
+.oranye { background-color: #e67e22; }
+.ungu { background-color: #8e44ad; }
+
+/* PRAKTIK 9-10: Font dan Text */
+.font-arial {
+    font-family: Arial, sans-serif;
+}
+
+.font-times {
+    font-family: "Times New Roman", serif;
+}
+
+.ukuran-14 { font-size: 14px; }
+.ukuran-18 { font-size: 18px; }
+.ukuran-24 { font-size: 24px; }
+.ukuran-32 { font-size: 32px; }
+
+.tebal {
+    font-weight: bold;
+}
+
+.miring {
+    font-style: italic;
+}
+
+.rata-kiri {
+    text-align: left;
+}
+
+.rata-tengah {
+    text-align: center;
+}
+
+/* PRAKTIK 11: Background */
+.hero {
+    padding: 60px 30px;
+    margin: 20px 0;
+    color: white;
+    background-color: #1f4e79;
+    background-image: linear-gradient(135deg, #1f4e79, #4f81bd);
+}
+
+.hero h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.background-kedua {
+    padding: 30px;
+    margin: 20px 0;
+    background-color: #fff3cd;
+    background-image: linear-gradient(to right, #fff3cd, #ffe8a1);
+}
+
+/* PRAKTIK 12: Border */
+.box1,
+.box2,
+.box3,
+.kartu-radius,
+.radius-0,
+.radius-10,
+.radius-20,
+.radius-50 {
+    width: 300px;
+    padding: 20px;
+    margin: 15px 0;
+    box-sizing: border-box;
+}
+
+.box1 {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+.box2 {
+    border-width: 3px;
+    border-style: dashed;
+    border-color: blue;
+}
+
+.box3 {
+    border-width: 2px;
+    border-style: dotted;
+    border-color: red;
+}
+
+/* PRAKTIK 13: Border Radius */
+.kartu-radius {
+    border: 2px solid #333333;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.radius-0 {
+    border: 2px solid #555555;
+    border-radius: 0;
+}
+
+.radius-10 {
+    border: 2px solid #555555;
+    border-radius: 10px;
+}
+
+.radius-20 {
+    border: 2px solid #555555;
+    border-radius: 20px;
+}
+
+.radius-50 {
+    border: 2px solid #555555;
+    border-radius: 50px;
+}
+
+/* PRAKTIK 14-17: Box Model */
+.kotak-content {
+    width: 200px;
+    height: 150px;
+    background-color: #dddddd;
+    padding: 10px;
+    border: 2px solid #555555;
+    margin: 20px 0;
+}
+
+.kotak-padding {
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: white;
+}
+
+.box-margin {
+    width: 250px;
+    padding: 15px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.box-margin.satu {
+    margin-bottom: 20px;
+}
+
+.box-margin.dua {
+    margin-top: 30px;
+}
+
+.produk {
+    width: 300px;
+    height: 180px;
+    padding: 20px;
+    border: 2px solid #333333;
+    margin: 20px;
+    background-color: #eeeeee;
+    box-sizing: border-box;
+}
+
+.produk-kedua {
+    background-color: #e6f4ea;
+}
+
+.catatan-box {
+    max-width: 700px;
+    padding: 15px;
+    margin: 20px 0;
+    border: 2px solid #999999;
+    background-color: #ffffff;
+}
+
+/* PRAKTIK 18 & 20: Integrasi / Mini Project */
+.header-project {
+    padding: 25px;
+    margin-bottom: 20px;
+    background-color: #1f4e79;
+    border: 2px solid #163a5c;
+}
+
+#judul-project {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+
+.subjudul {
+    color: #e8f1f8;
+    text-align: center;
+}
+
+.profil-card,
+.produk-card {
+    width: 500px;
+    min-height: 120px;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border: 2px solid #333333;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.profil-card p {
+    color: #444444;
+}
+
+.pengalaman {
+    background-color: #f8f9fa;
+}
+
+.produk-card {
+    background-color: #eef5fb;
+    border-color: #1f4e79;
+}
+
+.harga {
+    color: #b00020;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.footer-project {
+    padding: 15px;
+    margin-top: 30px;
+    background-color: #dddddd;
+    border-top: 3px solid #1f4e79;
+}
+
+/* PRAKTIK 19: Debugging */
+#judul-debug {
+    color: blue;
+    font-size: 32px;
+}
+
+.penting-debug {
+    font-size: 20px;
+    background-color: #eeeeee;
+    padding: 10px;
+    border: 1px solid #999999;
+}
+
+.hasil-debug {
+    width: 700px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: white;
+    border: 2px solid #333333;
+    border-radius: 8px;
+}
+
+code {
+    background-color: #eeeeee;
+    padding: 2px 5px;
+}
